@@ -115,7 +115,7 @@ button:focus {
 
 .modal-container {
   background-color: rgba(0, 0, 0, 0.6);
-  /*display: none;*/
+  display: none;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -157,4 +157,18 @@ button:focus {
 
 .modal-form label {
   display: ;
+}
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+
+.close-btn {
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
 }
